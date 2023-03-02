@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
-    "watch": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Teo0250/clone_disneyplus#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.58.3"
   }
